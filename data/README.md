@@ -26,7 +26,7 @@ The main dataset (`updated_dialogue_benchmarks.csv`) contains benchmark results 
 
 ## Data Sources
 
-The data is compiled from published academic papers and research reports evaluating various models on the MultiWOZ and SGD benchmarks. The full citations are available in the original publication.
+The data is compiled from published academic papers and research reports evaluating various models on the MultiWOZ and SGD benchmarks. The full citations are available in the [original research note]([url](https://docs.google.com/document/d/1XzHUTZR7ynu0OD88NeKkF6vqkrEzVC298PnlHLbo1m4/edit?usp=sharing)).
 
 ## Notes
 
