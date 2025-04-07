@@ -26,11 +26,11 @@ Our speculative forecast based on benchmark trends suggests AI automation capabi
 
 ## Visualizations
 
-### Adaptability: AI Progress on SGD JGA
+Adaptability: AI Progress on SGD JGA
 
-### Complex Tracking: AI Progress on MultiWOZ JGA
+Complex Tracking: [AI Progress on MultiWOZ JGA]([url](https://github.com/gilbert-umuzi/MultiWOZ-SGD-benchmarks/blob/main/figures/multiwoz_jga_progress.png))
 
-### Task Completion: AI Progress on MultiWOZ Success Rate
+Task Completion: AI Progress on MultiWOZ Success Rate
 
 ## Usage
 
