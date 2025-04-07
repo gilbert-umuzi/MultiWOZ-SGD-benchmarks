@@ -1,0 +1,35 @@
+Model,Year,Benchmark,Benchmark_Version,Subset,Metric,Score(%),Setting,Eval_Method,Source_Type,Base_Model_Note
+SUMBT,2019.5,MultiWOZ,2.0,Overall,JGA,50.0,Fine-tuned,Fine-tuned (Automated),Academic Paper (Estimate),BERT-based
+SimpleTOD,2020.4,MultiWOZ,2.1,Overall,JGA,55.8,Fine-tuned,Fine-tuned (Automated),Academic Paper,GPT-2 based
+SimpleTOD,2020.4,MultiWOZ,2.1,Overall,SR,70.5,Fine-tuned (E2E),Fine-tuned (Automated),Academic Paper,GPT-2 based
+TripPy,2020.5,MultiWOZ,2.1,Overall,JGA,55.3,Fine-tuned,Fine-tuned (Automated),Academic Paper,BERT-based
+T5 (Fine-tuned),2021.5,MultiWOZ,2.1+,Overall,SR,75.0,Fine-tuned,Fine-tuned (Automated),Academic Paper (Estimate),T5
+T5 (Fine-tuned),2021.5,SGD,Original,Unseen,JGA,70.0,Fine-tuned,Fine-tuned (Automated),Academic Paper (Estimate),T5
+Flan-T5 (Fine-tuned),2022.8,SGD,Original,Unseen,JGA,75.0,Fine-tuned,Fine-tuned (Automated),Academic Paper (Estimate),Flan-T5
+GPT-3.5 (`text-davinci-003`),2022.9,MultiWOZ,Unknown,Overall,SR (Human),57.1,Few-Shot,Few-Shot (Human Eval),Academic Paper,GPT-3 series
+GPT-3.5-Turbo,2022.9,MultiWOZ,2.2,Overall,JGA,58.6,Zero-shot (FuncCall),Zero-shot (Automated),Academic Paper,GPT-3 series
+GPT-4,2023.3,MultiWOZ,Unknown,Overall,SR (Human),76.0,Few-Shot,Few-Shot (Human Eval),Academic Paper,GPT-4
+SPLAT (Large),2023.5,SGD,Original,Unseen,JGA,82.2,Fine-tuned,Fine-tuned (Automated),Academic Paper,Longformer-large
+SPLAT (Large),2023.5,MultiWOZ,2.2,Overall,JGA,57.4,Fine-tuned,Fine-tuned (Automated),Academic Paper,Longformer-large
+LLaMA 1/2 (Fine-tuned),2023.5,SGD,Original,Unseen,JGA,75.0,Fine-tuned,Fine-tuned (Automated),Academic Paper (Estimate),Llama 1/2
+GPT-4-Turbo,2023.8,SGD,Original,Overall,JGA,88.7,Zero-shot (SRP),Zero-shot (Automated),Academic Paper,GPT-4 series
+GPT-4-Turbo,2023.8,MultiWOZ,2.4,Overall,JGA,79.6,Zero-shot (SRP),Zero-shot (Automated),Academic Paper,GPT-4 series
+FnCTOD (GPT-3.5-Turbo),2024.1,MultiWOZ,2.1,Overall,JGA,38.6,Zero-shot (FuncCall),Zero-shot (Automated),Academic Paper,GPT-3.5 series
+FnCTOD (GPT-4),2024.1,MultiWOZ,2.1,Overall,JGA,38.7,Zero-shot (FuncCall),Zero-shot (Automated),Academic Paper,GPT-4 series
+Llama3-8B-Instruct,2024.3,MultiWOZ,2.2,Overall,JGA,55.9,Few-Shot (5ex FuncCall),Few-Shot (Automated),Academic Paper,Llama 3 8B
+Llama3-70B-Instruct,2024.3,MultiWOZ,2.2,Overall,JGA,72.4,Few-Shot (5ex FuncCall),Few-Shot (Automated),Academic Paper,Llama 3 70B
+Llama 3 (70B Instruct),2024.3,SGD,Original,Overall,JGA,76.3,Zero-shot (SRP),Zero-shot (Automated),Academic Paper,Llama 3 70B
+Llama 3 (70B Instruct),2024.3,MultiWOZ,2.4,Overall,JGA,66.2,Zero-shot (SRP),Zero-shot (Automated),Academic Paper,Llama 3 70B
+CoALM 70B,2024.4,MultiWOZ,2.4,Overall,JGA,43.8,Zero-shot (AutoTOD),Zero-shot (Automated),Academic Paper,Llama 2 70B based
+CoALM 70B,2024.4,MultiWOZ,2.4,Overall,SR,69.4,Zero-shot (AutoTOD),Zero-shot (Automated),Academic Paper,Llama 2 70B based
+CoALM 405B,2024.4,MultiWOZ,2.4,Overall,JGA,38.8,Zero-shot (AutoTOD),Zero-shot (Automated),Academic Paper,Llama 2 based (?)
+CoALM 405B,2024.4,MultiWOZ,2.4,Overall,SR,66.7,Zero-shot (AutoTOD),Zero-shot (Automated),Academic Paper,Llama 2 based (?)
+GPT-4o,2024.5,MultiWOZ,2.4,Overall,JGA,36.9,Zero-shot (AutoTOD),Zero-shot (Automated),Academic Paper,GPT-4 series
+GPT-4o,2024.5,MultiWOZ,2.4,Overall,SR,75.5,Zero-shot (AutoTOD),Zero-shot (Automated),Academic Paper,GPT-4 series
+S3-DST (GPT-4),2024.8,MultiWOZ,2.1,Overall,JGA,45.1,Zero-shot (PAR),Zero-shot (Automated),Academic Paper,GPT-4 series
+S3-DST (GPT-4),2024.8,MultiWOZ,2.4,Overall,JGA,53.3,Zero-shot (PAR),Zero-shot (Automated),Academic Paper,GPT-4 series
+CORRECTIONLM (Llama 3 8B),2024.8,SGD,Original,Overall,JGA,37.8,Few-Shot (5%)+Corr,Few-Shot (Automated),Academic Paper,Llama 3 8B
+CORRECTIONLM (Llama 3 8B),2024.8,MultiWOZ,2.4,Overall,JGA,56.2,Few-Shot (5%)+Corr,Few-Shot (Automated),Academic Paper,Llama 3 8B
+IDIC-DST (CodeLlama 7B),2024.9,MultiWOZ,2.1,Overall,JGA,44.3,Few-Shot (5% data),Few-Shot (Automated),Academic Paper,CodeLlama 7B
+IDIC-DST (CodeLlama 7B),2024.9,MultiWOZ,2.4,Overall,JGA,52.7,Few-Shot (1% data),Few-Shot (Automated),Academic Paper,CodeLlama 7B
+NL-DST (LLM),2025.0,MultiWOZ,2.1,Overall,JGA,65.9,Fine-tuned (NL Gen),Fine-tuned (Automated),Academic Paper,Unknown LLM
