@@ -1,6 +1,6 @@
 # AI Progress in Customer Service: Benchmark Analysis and Forecast
 
-This repository contains data, code, and analysis for tracking AI progress on task-oriented dialogue benchmarks relevant to Customer Service Representative (CSR) automation.
+This repository contains data, code, and analysis for tracking AI progress on task-oriented dialogue benchmarks relevant to Customer Service Representative (CSR) automation. See the [original research note](https://docs.google.com/document/d/1XzHUTZR7ynu0OD88NeKkF6vqkrEzVC298PnlHLbo1m4/edit?usp=sharing).
 
 ## Overview
 
