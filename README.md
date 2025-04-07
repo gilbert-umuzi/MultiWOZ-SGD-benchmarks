@@ -51,9 +51,7 @@ We welcome contributions to keep this benchmark collection updated with results 
 
 If you use this data or code in your research, please cite:
 
-```
-[Citation information will be added when publication is finalized]
-```
+Pooley, G. (2025). How Fast is AI Learning Customer Service? A Benchmark Analysis and Forecast.
 
 ## License
 
