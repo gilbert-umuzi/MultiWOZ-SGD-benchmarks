@@ -1,0 +1,10 @@
+Model,Year,Score,Training compute (FLOP)
+o3 (medium),Apr 2025,59.09,4.00E+26
+Claude 3.7 Sonnet Thinking,2025.2,51.58,3.35E+25
+GPT-4o (November 2024),November 2024,27.81,3.80E+25
+GPT-4.5 Preview,Feb 2025,43.77,3.00E+26
+DeepSeek V3,Dec 2024,32.19,3.41E+24
+Nova Pro,Jan 2024,20.73,6.00E+24
+Qwen 2.5 72B Instruct,Sep 2024,17.34,7.85E+24
+Mistral Large 2,July 2024,15.23,2.13E+25
+Llama 3.1 405B Instruct,July 2024,16.22,3.80E+25
