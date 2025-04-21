@@ -4,8 +4,8 @@ This directory contains the compiled benchmark data used for tracking AI progres
 
 ## File Structure
 
-- `multiwoz_sgd.csv` - The main dataset containing all benchmark results for dialogue tasks  
-- `multichallenge.csv` - A complementary dataset capturing performance on composite multi-benchmark challenges (e.g., ARC, MMLU, BigBench-Hard)
+- `multiwoz_sgd.csv`  
+- `multichallenge.csv`
 
 ## Dataset Descriptions
 
@@ -29,7 +29,7 @@ This dataset contains benchmark results from various models evaluated on the Mul
 
 ### 2. `multichallenge.csv`
 
-This dataset includes benchmark scores from models evaluated on combined challenge suites such as ARC, MMLU, and BigBench-Hard, reported as a single scalar percentage score. It also includes estimates of training compute (in FLOP) for each model.
+This dataset includes selected benchmark scores from models evaluated on MultiChallenge reported as a single scalar percentage score from [SEAL](https://scale.com/leaderboard/multichallenge). It also includes estimates of training compute (in FLOP) for each model from [Epoch](https://epoch.ai/data/notable-ai-models). For similar models with the same or similar compute and different scores, the best performing model was selected (e.g. o3 medium was selected over o3 high). 
 
 #### Data Fields
 
@@ -47,4 +47,3 @@ All data is compiled from published academic papers, leaderboard results, and tr
 - Scores may not be directly comparable across different evaluation setups.
 - Compute values are estimates based on public disclosures or third-party analyses.
 - Dialogue benchmark data includes fine-tuned and zero-shot settings across multiple benchmark versions.
-- Multichallenge scores aim to summarize general reasoning and task-solving ability across diverse test sets.
