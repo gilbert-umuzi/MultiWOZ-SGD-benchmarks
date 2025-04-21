@@ -4,11 +4,11 @@ This directory contains the compiled benchmark data used for tracking AI progres
 
 ## File Structure
 
-- `updated_dialogue_benchmarks.csv` - The main dataset containing all benchmark results
+- `multiwoz_sgd.csv` - The main dataset containing all benchmark results
 
 ## Dataset Description
 
-The main dataset (`updated_dialogue_benchmarks.csv`) contains benchmark results from various models evaluated on the MultiWOZ and Schema-Guided Dialogue (SGD) benchmarks from 2019 to early 2025. 
+The main dataset (`multiwoz_sgd.csv`) contains benchmark results from various models evaluated on the MultiWOZ and Schema-Guided Dialogue (SGD) benchmarks from 2019 to early 2025. 
 
 ### Data Fields
 
