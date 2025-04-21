@@ -41,7 +41,7 @@ We track three core skill areas:
 
 1. Clone this repository  
 2. Install requirements: `pip install -r requirements.txt`  
-3. Run: `python scripts/multiwoz_sgd.py` and `python scripts/multichallenge.py`
+3. Run: `python scripts/multiwoz_sgd.ipynb` and `python scripts/multichallenge.ipynb`
 
 ## Data Sources
 
